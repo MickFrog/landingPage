@@ -183,3 +183,14 @@ body {
 .action-signup {
     font-weight: 400;
 }
+
+/*Footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    padding: 40px 0px;
+    flex-direction: column;
+    color: white;
+}
