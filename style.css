@@ -1,5 +1,15 @@
-.body {
+body {
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+button {
+    padding: 8px;
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
 }
 
 .container {
@@ -11,7 +21,9 @@
 .header {
     display: flex;
     flex-direction: column;
-    background: #1F2973
+    background: #1F2937;
+    color: white;
+    padding: 8px 100px;
 }
 
 .links {
@@ -21,7 +33,39 @@
 
 .links ul {
     margin: 0px;
+    margin-bottom: 60px;
     padding: 0px;
     display: flex;
     gap: 10px;
+    list-style-type: none;
 }
+
+.logo {
+    font-weight: 900;
+}
+
+.page-intro {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.intro-words {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 300px;
+    flex-wrap: wrap;
+
+}
+
+.words-heading {
+    font-weight: 1000;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.words-para {
+    margin-bottom: 12px;    
+}
+
