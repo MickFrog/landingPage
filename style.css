@@ -153,13 +153,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 0px;
+    padding: 100px 0px;
 }
 
 .blue-box {
     display: flex;
     background: #3882F6;
-    padding: 40px 100px;
+    padding: 50px 100px;
     justify-content: space-between;
     width: 800px;
     border-radius: 10px;
@@ -190,7 +190,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #1F2937;
-    padding: 40px 0px;
+    padding: 30px 0px;
     flex-direction: column;
     color: white;
 }
