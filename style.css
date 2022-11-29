@@ -147,3 +147,39 @@ body {
     font-weight: 1000;
     font-size: 18px;
 }
+
+/*Action*/
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.blue-box {
+    display: flex;
+    background: #3882F6;
+    padding: 40px 100px;
+    justify-content: space-between;
+    width: 800px;
+    border-radius: 10px;
+    color: white;
+}
+
+.blue-box button {
+    padding: 8px;
+    width: 150px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.action-call {
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.action-signup {
+    font-weight: 400;
+}
