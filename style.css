@@ -4,7 +4,7 @@ body {
     margin: 0px;
 }
 
-button {
+.intro-words button {
     padding: 8px;
     width: 100px;
     background-color: #3882F6;
