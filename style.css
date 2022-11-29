@@ -85,6 +85,7 @@ body {
 /*Some info*/
 .info {
     padding-top: 30px;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,4 +121,29 @@ body {
     text-align: center;
     width: 250px;
     font-size: 16px;
+}
+
+/*Quote*/
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E5E7EB;
+    padding: 80px 100px;
+}
+
+.quote-container {
+    width: 800px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.quote-credit {
+    text-align: right;
+    font-weight: 900;
+    font-size: 1.1em;
 }
