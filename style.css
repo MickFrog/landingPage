@@ -4,6 +4,8 @@ body {
     margin: 0px;
 }
 
+/*Introduction*/
+
 .intro-words button {
     padding: 8px;
     width: 100px;
@@ -76,4 +78,46 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*Middle content*/
+
+/*Some info*/
+.info {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mick {
+    font-size: 2em;
+    margin-bottom: 40px;
+    font-weight: 900;
+}
+
+.box-container {
+    display: flex;
+    gap: 50px;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    border: 4px solid #3882F6;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.inner-box-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 250px;
+    font-size: 16px;
 }
