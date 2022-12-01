@@ -167,6 +167,7 @@ body {
     background: #3882F6;
     padding: 50px 100px;
     justify-content: space-between;
+    align-items: center;
     width: 800px;
     border-radius: 10px;
     color: white;
@@ -177,6 +178,7 @@ body {
 .blue-box button {
     padding: 8px;
     width: 150px;
+    height: 50px;
     background-color: #3882F6;
     color: white;
     border-radius: 10px;
