@@ -171,6 +171,7 @@ body {
     border-radius: 10px;
     color: white;
     flex-wrap: wrap;
+    margin: 20px;
 }
 
 .blue-box button {
