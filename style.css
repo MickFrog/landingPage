@@ -51,6 +51,7 @@ body {
 .page-intro {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -59,6 +60,7 @@ body {
     flex-direction: column;
     width: 420px;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 
 }
 
@@ -101,6 +103,8 @@ body {
 .box-container {
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box {
