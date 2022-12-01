@@ -170,6 +170,7 @@ body {
     width: 800px;
     border-radius: 10px;
     color: white;
+    flex-wrap: wrap;
 }
 
 .blue-box button {
@@ -179,6 +180,10 @@ body {
     color: white;
     border-radius: 10px;
     border: 2px solid white;
+}
+
+.action-text {
+    margin-bottom: 20px;
 }
 
 .action-call {
